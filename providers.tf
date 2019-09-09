@@ -1,3 +1,8 @@
+# aws region variable for terragrunt usage
+variable "aws_region" {
+  description = "aws region"
+}
+
 ## Provider and backend definitions, This file shouldn't be modifed
 
 provider "aws" {
