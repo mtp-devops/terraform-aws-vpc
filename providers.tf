@@ -13,7 +13,7 @@ provider "aws" {
 terraform {
   # The configuration for this backend will be filled in by Terragrunt
   backend "s3" {
-  skip_region_validation = true
+    skip_region_validation = true
   }
 
   # The latest version of Terragrunt (v0.19.0 and above) requires Terraform 0.12.0 or above.
