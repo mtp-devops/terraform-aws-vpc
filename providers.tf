@@ -7,7 +7,6 @@ variable "aws_region" {
 
 provider "aws" {
   region = var.aws_region
-  skip_region_validation  = true
 }
 
 terraform {
