@@ -6,7 +6,6 @@ variable "aws_region" {
 ## Provider and backend definitions, This file shouldn't be modifed
 
 provider "aws" {
-  region = var.aws_region
   skip_region_validation = true
 }
 
